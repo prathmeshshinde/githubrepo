@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  background-color: tomato;
+  color: white;
+}
+
+p {
+  background-color: black;
+  color: white;
+}
