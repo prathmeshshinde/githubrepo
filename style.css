@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   text-align: center;
+  font-family: "Courier New";
 }
 
 h1 {
@@ -12,4 +13,27 @@ h1 {
 p {
   background-color: black;
   color: white;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.div {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.parent {
+  border: 5px solid red;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  border: 2px solid blue;
+  width: 100px;
+  height: 100px;
 }
